@@ -1,0 +1,175 @@
+li{
+    padding:0.5rem;
+    color: whitesmoke;
+}
+h3{
+    font-family: 'Bebas Neue', cursive;
+
+}
+h1{
+    font-size: 2rem;
+    font-family: 'Pacifico', cursive;;
+}
+h2{
+    font-size: 4rem;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+input{
+    padding: 0.3rem 1.5rem;
+    margin-top: 1rem;
+}
+select{
+    padding: 0.4375rem 1.5rem;
+}
+.nabtn{
+    position: relative;
+    bottom: 2px;
+}
+#main-content span{ 
+    font-size: 1rem;
+    background-color: lightgreen;
+    padding:0.3rem ;
+    margin-left: 1rem;
+}
+
+.introbar{
+    background-image: url("images/pic.jpg");
+    height: 28.125rem;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.introbar h2{
+    color:#393e46;
+}
+.container{
+    padding: 14rem 6.25rem;
+}
+.fa-2x{
+    position: relative;
+    color: whitesmoke;
+    bottom: 0.5rem;
+}
+.fa-5x{
+    margin-bottom: 1rem;
+}
+#features{
+    text-align: center;
+    margin: 1.5rem;
+    margin-top: 4.5rem;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.row{
+    margin: 1rem;
+    margin-top: 3rem;
+}
+#main-content h2,#featured h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 4rem;
+    font-size: 3rem;
+}
+#main-content h4,#featured h4{
+    margin-top: 1rem;
+}
+footer{
+    margin-top: 4rem;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 3rem;
+}
+footer h2{
+    font-size: 2rem;
+}
+#email,#subscribe{
+    margin-top: 0rem;
+}
+#subscribe{
+    position: relative;
+    bottom: 0.2rem;
+}
+#testimonial{
+    margin-top: 10rem;
+    background-image: url(images/back.jpg);
+    background-size: 100% 100%;
+    color:white;
+    text-align: center;
+    font-size: 2rem;
+    height: 30rem;
+    padding-top: 5rem;
+    font-family: 'Sriracha', cursive;
+}
+#testimonial h1{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+nav i,nav button{
+    margin-top: 0.5rem;
+}
+#featured{
+    padding-bottom: 7rem;
+}
+.links{
+    margin-top: 3rem;
+}
+link{
+    margin: auto 0.5rem;
+}
+#love{
+    visibility: hidden;
+}
+.modal{
+    text-align: center;
+}
+@media(max-width:1082px)
+{
+    nav{
+        text-align: center;
+    }
+    .container{
+        padding-top: 2rem;
+
+    }
+    .introbar h2{
+        font-size: 3.5rem;
+    }
+    input{
+        margin-bottom: 1rem;
+        display: block;
+        text-align: center;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
+        margin-left: 2.5rem;
+    }
+    #date{
+        padding-left: 3.2rem;
+        padding-right: 3.1rem;
+    }
+    select{
+        margin-top: 2rem;
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+    .introbar button{
+        position: relative;
+        right: 1.5rem;
+    }
+    img{
+        height: 75%;
+        width: 75%;
+        margin-left: 1%;
+    }
+    #featured h2,#main-content h2{
+        font-size: 2rem;
+    }
+    #featured,#main-content{
+        text-align: center;
+    }
+    #testimonial,footer{
+        margin-top: 2rem;
+    }
+
+}
